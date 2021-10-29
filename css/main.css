@@ -5,36 +5,58 @@ video {
   width: 100%;
   height: auto;
 }
-
-:root {
-  --unnamed-font-family-tinos: Tinos;
-  --unnamed-font-family-arial: Arial;
-  --unnamed-font-family-graphik: Graphik;
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-style-italic: italic;
-  --unnamed-font-weight-normal: normal;
-  --unnamed-font-weight-bold: bold;
-  --unnamed-font-size-10: 10px;
-  --unnamed-font-size-12: 12px;
-  --unnamed-font-size-13: 13px;
-  --unnamed-font-size-16: 16px;
-  --unnamed-font-size-18-5: 18.5px;
-  --unnamed-font-size-14-5: 14.5px;
-  --unnamed-font-size-29-5: 29.5px;
-  --unnamed-font-size-16-5: 16.5px;
-  --unnamed-character-spacing-0: 0px;
-  --unnamed-character-spacing-0-04: 0.04px;
-  --unnamed-line-spacing-13: 13px;
-  --unnamed-line-spacing-14: 14px;
-  --unnamed-line-spacing-15: 15px;
-  --unnamed-line-spacing-17: 17px;
-  --unnamed-line-spacing-22: 22px;
-  --unnamed-line-spacing-33: 33px;
-  --unnamed-line-spacing-26-5: 26.5px;
-  --unnamed-decoration-underline: underline;
-  --unnamed-text-transform-uppercase: uppercase;
+h1 {
+  color: var(--black); /*gets replaced with black*/
+  margin: var(--spacing-default);
+  font-family: var(--primary-font);
+}
+p {
+  color: var(--white);
+  margin: var(--spacing-default);
 }
 
+.logo {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 2rem;
+  float: right;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  top: -10rem;
+  right: 6rem;
+}
+
+/*adobe xd variables*/
+:root {
+  --green: #585123;
+  --yellow-orange: #f2a65a;
+  --orange: #f58549;
+  --marooon: #772f1a;
+  --black: black;
+  --white: white;
+  --spacing-default: 1rem;
+  --primary-font: "sans-serif";
+}
+
+body {
+  /*background: var(--black);*/
+}
 .republish {
   font-family: var(--unnamed-font-family-arial);
   font-style: var(--unnamed-font-style-normal);
