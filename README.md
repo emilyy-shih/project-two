@@ -2,4 +2,4 @@
 
 # The Great Climate Migration
 
-A brief description about your project.
+Mejo 187 Project 2
