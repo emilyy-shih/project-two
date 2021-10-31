@@ -1,5 +1,5 @@
 [How to use this template](./.github/template/README.md)
 
-# Project Name
+# The Great Climate Migration
 
 A brief description about your project.
