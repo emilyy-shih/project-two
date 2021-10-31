@@ -20,6 +20,27 @@ p {
   display: flex;
 }
 
+.wildfirelogo {
+  display: flex;
+  inline-size: 30rem;
+  margin-left: 35rem;
+  margin-top: -5rem;
+}
+
+.hurricanelogo {
+  display: flex;
+  inline-size: 30rem;
+  margin-left: 35rem;
+  margin-top: -5rem;
+}
+
+.droughtlogo {
+  display: flex;
+  inline-size: 30rem;
+  margin-left: 35rem;
+  margin-top: -5rem;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -49,7 +70,7 @@ a {
   justify-content: space-around;
   position: relative;
   left: 2rem;
-  bottom: -11.2rem;
+  bottom: -12.2rem;
   color: white;
   font-size: 25px;
 }
@@ -58,17 +79,34 @@ a {
   position: relative;
   -webkit-backdrop-filter: blur(3rem);
   backdrop-filter: blur(3px);
+  max-height: 10rem;
 }
 .wildfireheader {
+  position: relative;
+  backdrop-filter: blur(10px);
+  background-color: rgba(253, 148, 10, 0.212);
+  max-height: 10rem;
+}
+.hurricaneheader {
+  position: relative;
+  -webkit-backdrop-filter: blur(3rem);
+  backdrop-filter: blur(3px);
+  max-height: 10rem;
 }
 .homebody {
   background-image: url(https://images.unsplash.com/photo-1562089727-90aa996a6f18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2xpbWF0ZSUyMGNoYW5nZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 130vh;
+  min-height: 140vh;
   background-color: #51646e;
 }
 
+.hurricanebody {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 130vh;
+  background-color: #052232;
+}
 .droughtbody {
   background-image: url(https://images.unsplash.com/photo-1615957148446-6a1647193298?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZHJvdWdodHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
   background-repeat: no-repeat;
@@ -81,6 +119,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 120vh;
+  background-color: #000000;
 }
 
 .homeblurb {
@@ -88,7 +127,7 @@ a {
   font-size: 1.3rem;
   inline-size: 60rem;
   margin: auto;
-  top: 2.21rem;
+  top: 6.1rem;
   right: 9rem;
   /*top: 10rem;
   left: 10rem;
@@ -149,7 +188,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  margin-top: 17rem;
+  margin-top: 22rem;
   margin-left: auto;
 }
 form {
