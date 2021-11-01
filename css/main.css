@@ -150,14 +150,78 @@ a {
   background-image: url(https://images.unsplash.com/photo-1615957148446-6a1647193298?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZHJvdWdodHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 150vh;
+  min-height: 160vh;
+}
+.drought1 {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+  inline-size: 80rem;
+  margin: auto;
+  top: -8rem;
+  justify-content: space-around;
+  position: relative;
+  color: #000000;
+}
+
+.drought2 {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  inline-size: 80rem;
+  margin: auto;
+  top: -8rem;
+  justify-content: space-around;
+  position: relative;
+  color: #ffffff;
+}
+.blurblock {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.11);
+  padding: 10rem;
+}
+.accordion {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: rgba(177, 177, 177, 0.664);
+  width: 100%;
+  margin: auto;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 1rem;
+  background-color: rgba(126, 126, 126, 0);
+  display: none;
+  overflow: hidden;
+}
+
+button.active + .panel {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
 }
 
 .wildfirebody {
   background-image: url(https://images.unsplash.com/photo-1627404017595-212e8933788f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbGRmaXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 165vh;
+  min-height: 170vh;
   background-color: #000000;
 }
 
@@ -239,6 +303,13 @@ a {
   --white: white;
   --spacing-default: 1rem;
   --primary-font: "sans-serif";
+}
+.footer1 {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  margin-left: 42rem;
+  margin-top: 8rem;
 }
 
 .fireicon {
